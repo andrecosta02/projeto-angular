@@ -1,0 +1,20 @@
+<p>Controle Acesso</p>
+
+<div>
+    <button (click)="selecionarPapel('administrador')">Administrador</button>
+    <button (click)="selecionarPapel('colaborador')">Colaborador</button>
+    <button (click)="selecionarPapel('usuario')">Usuário</button>
+  </div>
+  
+  <div *ngIf="papelSelecionado === 'administrador'">
+    <p>Você tem permissão de administrador</p>
+  </div>
+  
+  <div *ngIf="papelSelecionado === 'colaborador'">
+    <p>Você tem permissão de colaborador</p>
+  </div>
+  
+  <div *ngIf="papelSelecionado === 'usuario'">
+    <p>Você tem permissão de usuário</p>
+  </div>
+  
