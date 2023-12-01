@@ -11,7 +11,6 @@
 
 
 
-// componente-pai.component.ts
 import { Component } from '@angular/core';
 
 @Component({

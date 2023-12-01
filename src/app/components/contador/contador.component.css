@@ -1,0 +1,26 @@
+button {
+    margin: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid blue;
+    box-shadow: 3px 3px 5px rgba(0, 0, 255, 0.462);
+    border-radius: 7px;
+    font-size: 2em;
+}
+
+button:hover {
+    cursor: pointer;
+    /* transform: translate(-5px, -5px); */
+    box-shadow: 7px 7px 5px rgba(0, 0, 255, 0.462);
+	background:linear-gradient(to bottom, rgba(0, 0, 255, 0.74) 1%, rgba(0, 0, 255, 0.352) 100%);
+
+    transition: box-shadow .5s;
+
+}
+
+span {
+    border: 1px solid black;
+    padding: 30px;
+    /* font-size: 2em; */
+    border-radius: 10px;
+}

@@ -3,6 +3,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-contador',
+  styleUrls: ['./contador.component.css'],
   template: `
     <div>
       <button (click)="decrementar()">-</button>

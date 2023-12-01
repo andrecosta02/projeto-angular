@@ -1,26 +1,35 @@
-<!-- Exercício 1    ✓  -->
-<app-contador></app-contador>
+<div id="buttons">
+    <button (click)="selecionarExercicio('Ex01')">Exercicio 01</button>
+    <button (click)="selecionarExercicio('Ex02e03')">Exercicio 02 e 3</button>
+    <button (click)="selecionarExercicio('Ex04')">Exercicio 04</button>
+    <button (click)="selecionarExercicio('Ex05')">Exercicio 05</button>
+    <button (click)="selecionarExercicio('Ex06')">Exercicio 06</button>
+    <button (click)="selecionarExercicio('Ex07')">Exercicio 07</button>
+    <button (click)="selecionarExercicio('Ex08')">Exercicio 08</button>
+</div>
 
+<div id="container">
+    <div *ngIf="exercicioSelecionado === 'Ex01'">
+        <app-contador></app-contador>
+    </div>
+    <div *ngIf="exercicioSelecionado === 'Ex02e03'">
+        <app-list-itens></app-list-itens>
+    </div>
+    <div *ngIf="exercicioSelecionado === 'Ex04'">
+        <app-form-cadastro></app-form-cadastro>
+    </div>
+    <div *ngIf="exercicioSelecionado === 'Ex05'">
+        <app-controle-acesso></app-controle-acesso>
+    </div>
+    <div *ngIf="exercicioSelecionado === 'Ex06'">
+        <app-componente-pai></app-componente-pai>
+    </div>
+    <div *ngIf="exercicioSelecionado === 'Ex07'">
+        <app-form-login></app-form-login>
+    </div>
+    <div *ngIf="exercicioSelecionado === 'Ex08'">
+        <app-dados-alunos></app-dados-alunos>
+    </div>
+</div>
 
-<!-- Exercício 2 e 3 -->
-<app-list-itens></app-list-itens>  
-
-<!-- Exercício 4    ✓  -->
-<app-form-cadastro></app-form-cadastro>
-
-
-<!-- Exercício 5    ✓  -->
-<app-controle-acesso></app-controle-acesso>
-
-
-<!-- Exercício 6    ✓  -->
-<app-componente-pai></app-componente-pai>
-
-
-<!-- Exercício 7    ✓  -->
-<app-form-login></app-form-login>
-
-
-<!-- Exercício 8 -->
-<app-dados-alunos></app-dados-alunos>
 

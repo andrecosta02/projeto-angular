@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
       <h2>Formulário de Login</h2>
       <label for="email">E-mail:</label>
       <input type="text" id="email" [(ngModel)]="email" name="email" required>
-
+      <br>
       <label for="senha">Senha:</label>
       <input type="password" id="senha" [(ngModel)]="senha" name="senha" required>
-
+      <br>
       <button (click)="fazerLogin()">Fazer Login</button>
     </div>
 
