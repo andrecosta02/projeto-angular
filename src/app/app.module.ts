@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ContadorComponent } from './components/contador/contador.component';
 import { FormCadastroComponent } from './components/form-cadastro/form-cadastro.component';
 import { ControleAcessoComponent } from './components/controle-acesso/controle-acesso.component';
+import { ListItensComponent } from './components/list-itens/list-itens.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContadorComponent,
     FormCadastroComponent,
-    ControleAcessoComponent
+    ControleAcessoComponent,
+    ListItensComponent
   ],
   imports: [
     BrowserModule,
