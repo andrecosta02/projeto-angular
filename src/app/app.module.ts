@@ -12,7 +12,8 @@ import { ComponenteFilhoComponent } from './components/pai-filho/componente-filh
 import { FormLoginComponent } from './components/login/form-login/form-login.component';
 import { AreaLogadaComponent } from './components/login/area-logada/area-logada.component';
 // import { DadosAlunosComponent } from './components/dados-alunos/dados-alunos.component';
-import { DadosAlunosComponent } from './components/dados-alunos/dados-alunos.component';
+// import { DadosAlunosComponent } from './components/dados-alunos/dados-alunos.component';
+import { ListItensComponent } from './components/list-itens/list-itens.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DadosAlunosComponent } from './components/dados-alunos/dados-alunos.com
     ComponenteFilhoComponent,
     FormLoginComponent,
     AreaLogadaComponent,
-    DadosAlunosComponent
+    // DadosAlunosComponent,
+    ListItensComponent
   ],
   imports: [
     BrowserModule,
